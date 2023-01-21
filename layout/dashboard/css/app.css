@@ -10796,14 +10796,14 @@ html body {
   }
 }
 .main {
-  background-image: url(../img/bg-main.svg);
+  background-image: url(../../front/img/bg-main.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 .dark .main {
-  background-image: url(../img/bg-main-dark.svg);
+  background-image: url(../../front/bg-main-dark.svg);
 }
 .login {
   position: relative;
