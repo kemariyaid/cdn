@@ -1,0 +1,307 @@
+:root {
+  --swiper-theme-color: #1b7261;
+}
+
+#_kemariya {
+  overflow-x: hidden;
+}
+.content-wrapper {
+  margin-top: 96px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-wrap.style1 .hero-slide-item {
+    padding: 200px 0 60px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-wrap.sticky {
+    top: -60px;
+  }
+}
+
+.breadcrumb-wrap:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: #fff;
+  rotate: 0.5deg;
+  z-index: 5;
+}
+
+.footer-wrap {
+  margin-top: 100px;
+}
+.footer-wrap:before {
+  content: "";
+  position: absolute;
+  top: -75px;
+  left: -20px;
+  height: 122px;
+  width: 120%;
+  background: #1b7261;
+  rotate: -2deg;
+}
+.theme-dark .footer-wrap::before {
+  background: #191919;
+}
+
+.anim-spin {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* ERORR 404 */
+.ghbox {
+  position: relative;
+  min-height: 180px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ghbox .ghboxghosty {
+  padding: 15px 25px 25px;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
+.ghbox .ghboxghosty .symbol:nth-child(1) {
+  opacity: 0.2;
+  animation: shinee 4s ease-in-out 3s infinite;
+}
+.ghbox .ghboxghosty .symbol:nth-child(1):before,
+.ghbox .ghboxghosty .symbol:nth-child(1):after {
+  content: "";
+  width: 12px;
+  height: 4px;
+  background: #d4d4d4;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 65px;
+  left: 0;
+}
+.ghbox .ghboxghosty .symbol:nth-child(1):before {
+  transform: rotate(45deg);
+}
+.ghbox .ghboxghosty .symbol:nth-child(1):after {
+  transform: rotate(-45deg);
+}
+.ghbox .ghboxghosty .symbol:nth-child(2) {
+  position: absolute;
+  left: -5px;
+  top: 30px;
+  height: 18px;
+  width: 18px;
+  border: 4px solid;
+  border-radius: 50%;
+  border-color: #555;
+  opacity: 0.2;
+  animation: shinee 4s ease-in-out 1.3s infinite;
+}
+.ghbox .ghboxghosty .symbol:nth-child(3) {
+  opacity: 0.2;
+  animation: shinee 3s ease-in-out 0.5s infinite;
+}
+.ghbox .ghboxghosty .symbol:nth-child(3):before,
+.ghbox .ghboxghosty .symbol:nth-child(3):after {
+  content: "";
+  width: 12px;
+  height: 4px;
+  background: #555;
+  position: absolute;
+  border-radius: 5px;
+  top: 5px;
+  left: 40px;
+}
+.ghbox .ghboxghosty .symbol:nth-child(3):before {
+  transform: rotate(90deg);
+}
+.ghbox .ghboxghosty .symbol:nth-child(3):after {
+  transform: rotate(180deg);
+}
+.ghbox .ghboxghosty .symbol:nth-child(4) {
+  opacity: 0.2;
+  animation: shinee 6s ease-in-out 1.6s infinite;
+}
+.ghbox .ghboxghosty .symbol:nth-child(4):before,
+.ghbox .ghboxghosty .symbol:nth-child(4):after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  background: #555;
+  position: absolute;
+  border-radius: 5px;
+  top: 10px;
+  right: 30px;
+}
+.ghbox .ghboxghosty .symbol:nth-child(4):before {
+  transform: rotate(45deg);
+}
+.ghbox .ghboxghosty .symbol:nth-child(4):after {
+  transform: rotate(-45deg);
+}
+.ghbox .ghboxghosty .symbol:nth-child(5) {
+  position: absolute;
+  right: 5px;
+  top: 40px;
+  height: 12px;
+  width: 12px;
+  border: 3px solid;
+  border-radius: 50%;
+  border-color: #555;
+  opacity: 0.2;
+  animation: shinee 1.7s ease-in-out 7s infinite;
+}
+.ghbox .ghboxghosty .symbol:nth-child(6) {
+  opacity: 0.2;
+  animation: shinee 2s ease-in-out 6s infinite;
+}
+.ghbox .ghboxghosty .symbol:nth-child(6):before,
+.ghbox .ghboxghosty .symbol:nth-child(6):after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  background: #555;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 65px;
+  right: -5px;
+}
+.ghbox .ghboxghosty .symbol:nth-child(6):before {
+  transform: rotate(90deg);
+}
+.ghbox .ghboxghosty .symbol:nth-child(6):after {
+  transform: rotate(180deg);
+}
+.ghbox .ghboxghosty .ghboxghost-container {
+  background: #eee;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  position: relative;
+  margin: 0 auto;
+  animation: upndown 3s ease-in-out infinite;
+}
+.ghbox .ghboxghosty .ghboxghost-container .ghboxghosty-eyes {
+  position: absolute;
+  left: 18%;
+  top: 45%;
+  height: 12px;
+  width: 70px;
+}
+.ghbox .ghboxghosty .ghboxghost-container .ghboxghosty-eyes .ghboxeye-left {
+  width: 12px;
+  height: 12px;
+  background: #1b7261;
+  border-radius: 50%;
+  margin: 0 10px;
+  position: absolute;
+  left: 0;
+}
+.ghbox .ghboxghosty .ghboxghost-container .ghboxghosty-eyes .ghboxeye-right {
+  width: 12px;
+  height: 12px;
+  background: #1b7261;
+  border-radius: 50%;
+  margin: 0 10px;
+  position: absolute;
+  right: 0;
+}
+.ghbox .ghboxghosty .ghboxghost-container .ghboxghosty-bottom {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.ghbox .ghboxghosty .ghboxghost-container .ghboxghosty-bottom div {
+  flex-grow: 1;
+  position: relative;
+  top: -10px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #eee;
+}
+.ghbox
+  .ghboxghosty
+  .ghboxghost-container
+  .ghboxghosty-bottom
+  div:nth-child(2n) {
+  top: -12px;
+  margin: 0 -0px;
+  border-top: 15px solid #fff;
+  background: transparent;
+}
+.ghbox .ghboxghosty .ghboxghosty-shadow {
+  height: 20px;
+  box-shadow: 0 50px 15px 5px #ccc;
+  border-radius: 50%;
+  margin: 0 auto;
+  animation: smallnbig 3s ease-in-out infinite;
+}
+@keyframes upndown {
+  0% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(5px);
+  }
+}
+@keyframes smallnbig {
+  0% {
+    width: 90px;
+  }
+  50% {
+    width: 100px;
+  }
+  100% {
+    width: 90px;
+  }
+}
+@keyframes shinee {
+  0% {
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.dropbg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.dark .dropbg {
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--color-darkmode-600) / var(--tw-bg-opacity));
+}
