@@ -12,9 +12,9 @@ section.person .person-info {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   /* width: 275px; */
-  /* width: 100%; */
+  width: 100%;
   max-width: 340px;
-  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 20%);
+  box-shadow: 0 0 2px 0.5px rgb(0 0 0 / 20%);
   overflow: hidden;
   background-color: #eee;
   transform: translate(-50%, 100%);
