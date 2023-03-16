@@ -10803,7 +10803,7 @@ html body {
   padding-bottom: 1.25rem;
 }
 .dark .main {
-  background-image: url(../../front/bg-main-dark.svg);
+  background-image: url(../../front/img/bg-main-dark.svg);
 }
 .login {
   position: relative;
